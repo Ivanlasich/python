@@ -1,0 +1,8 @@
+<!--DOCTYPE html -->
+{% if get_tag.HTTP_X_PRINT_STATEMENT %}
+            <p> statement is {{get_tag.HTTP_X_PRINT_STATEMENT}}  </p>
+{% elif check %}
+            <p> statement is empty </p>
+{% elif get_letter  %}
+            <h2>{{ request_method |lower}} {{ get_letter }}: {{ get_value }} statement is empty</h2>
+{% endif %}
