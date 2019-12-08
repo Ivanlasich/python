@@ -1,0 +1,9 @@
+BEGIN:VCARD
+FN:Alexander Kharichkin
+ORG: Netcracker Technology
+Netc
+Netcracker1  
+BDAY:07-09-1988
+TEL;TYPE=CELL: 9032606540
+TEL;TYPE=WORK: 4959269347
+END:VCARD
